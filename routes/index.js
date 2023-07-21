@@ -5,7 +5,7 @@ const router = require("express").Router()
 
 
 
-router.get("/generate-qr", generateqr)
+router.post("/generate-qr", generateqr)
 router.get("/read-qr", readQRCode)
 
 
